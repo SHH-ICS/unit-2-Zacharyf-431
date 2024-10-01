@@ -1,0 +1,29 @@
+Functions
+
+x = min(a, b, c)
+print(x)
+
+
+x = min(a, b, c)
+y = min(d, e)
+print(max(x, y))
+
+
+
+2x Extra Practice:
+
+populationIn2012 = 1000
+populationIn2013 = populationIn2012 * 1.1
+populationIn2014 = populationIn2013 * 1.1
+populationIn2015 = populationIn2014 * 1.1
+
+
+x = max(-A, -B)
+print(-x)
+
+
+if 10 < balance:
+x = (max(balance*0.021, 10))
+else: 
+x = balance
+print(x)
