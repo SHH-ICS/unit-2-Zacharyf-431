@@ -13,3 +13,35 @@ print(secondsPerDay * daysPerWeek)
 
 x = 'A double-quote\'s escaped using a backslash, e.g. \\\"'
 print(x)
+
+
+
+Types 
+
+
+x = float(inputStr)
+A = x*x
+P = A/100
+print (int(P))
+
+
+
+Input 
+
+
+x=input()
+print(x)
+print(x)
+
+
+IF
+
+
+pancakes = int(input())
+x = pancakes
+if int(x) > 3:
+ print ("Yum!")
+else:
+ print ("Still hungry!")
+
+
