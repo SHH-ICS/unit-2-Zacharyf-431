@@ -1,0 +1,42 @@
+Strings 
+
+
+mystring = input ()
+print(mystring[1:-1])
+
+
+
+mystring = input ()
+x = mystring[0]
+y = mystring[-1]
+newstring = y + mystring[1:-1] + x
+print (newstring)
+
+
+
+
+mystring = input()
+n = ord(mystring) + 1 
+if n == 91: 
+   print(chr(65))
+else: 
+   print(chr(n))
+
+
+
+
+   mystring = input ()
+x = mystring [-1]
+y = mystring [0]
+z = "ay"
+print (mystring[1:-1] + x + y + z)
+
+
+
+
+mystring = input ()
+x = chr(32)
+print (mystring + "," + x + mystring + "," + x + "bo-b" + mystring[1:])
+print ("banana-fana" + x + "fo-f" + mystring[1:])
+print ("fee-fi-mo-m" + mystring[1:])
+print (mystring + "!")

@@ -16,3 +16,13 @@ if int(x) > 0:
  print ("Positive")
 if int(x) < 0:
  print ("Negative")
+
+
+age = int(input())
+if age < 0:
+ print ("You are a time traveller")
+elif age < 18:
+ print ("Too young to vote")
+elif age >= 18: 
+ print ("You can vote")
+
