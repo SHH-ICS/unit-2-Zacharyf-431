@@ -1,0 +1,52 @@
+Rich 
+
+
+x = int(input())
+print (x // 12)
+print (x % 12)
+
+
+
+x = int(input())
+y = int(input())
+if x % y == 0:
+   print ("divisible")
+else:
+   print ("not divisible")
+
+
+
+   import math 
+x = float(input())
+
+print(math.pi * x**2)
+
+
+
+
+import math 
+x = float(input())
+y = float(input())
+z = x*y
+xx = math.sqrt(z)
+print (xx)
+
+
+
+
+
+y = int(input())
+x = int(input())
+z = int(input())
+print ((y + x) * z)
+
+
+x = float(input())
+print (x * 30.48)
+
+
+
+import math
+x = float(input())
+y = (x - math.sqrt(x**2 - 4*(-4.9) * (11000))) / (2 * (-4.9))
+print (y)
