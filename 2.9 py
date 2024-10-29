@@ -1,0 +1,35 @@
+Else, And, Or , Not 
+
+
+
+x=int(input())
+if int(x) >= 0:
+   print (x) 
+else: 
+   print(int(x) * (-1))
+
+
+
+x = int(input())
+if x / 1 == 1:
+   print(str(x) + "st")
+elif x / 1 == 2:
+   print (str(x) + "nd")
+elif x / 1 == 3:
+   print(str(x) + "rd")
+else: 
+   print(str(x) + "th")
+
+
+
+
+letter = input()
+if ord(letter) >= ord("A") and ord(letter) <= ord("Z"):
+    print(ord(letter) - 64)
+else:
+    print('invalid')
+         
+
+
+
+

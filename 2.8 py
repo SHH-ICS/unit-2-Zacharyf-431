@@ -1,0 +1,104 @@
+Remix 
+
+
+x = input()
+
+for i in range(1, int(len(x))):
+   if x[i] == "+":
+      y = i
+   
+a = int(x[0:y])
+b = int(x[y + 1:int(len(x))])
+
+print(a + b)
+
+
+
+
+x = input()
+y = input()
+z = 0
+
+for i in range(len(y) - len(x) + 1):
+   if y[i] == x[0]:
+       if y[i:i + len(x)] == x:
+           z = z + 1
+   
+print(z)
+
+
+
+
+
+import math 
+L = float(input())
+A = float(input())
+
+for i in range(10):
+   print (float(L * math.cos(A * math.cos(i * math.sqrt(9.8 / L))) - L * math.cos(A)))
+
+
+
+
+
+
+width = int(input())
+while True: 
+   x = input() 
+   if x == "END": break
+   y = width - len(x)
+   if y % 2 ==0:
+       print ("." * (y // 2) + x + "." * (y // 2))
+   else:
+       print ("." * (y // 2) + "." + x + "." * (y // 2))
+
+
+
+
+
+
+x = input()
+y = int(input())
+a = int(x[0:2])
+b = int(x[3:5])
+c = b + y 
+d = (c // 60) + a 
+i = str(d % 24)
+j = str(c % 60)
+
+if int(i) < 10:
+   i = '0' + i
+
+if int(j) < 10:
+   j = '0' + j
+
+print(i + ':' + j)
+
+
+
+
+
+
+
+
+x = 32
+y = 48
+
+for j in range (6):
+   a = ""
+   b = ""
+   
+   for i in range(x, y):
+      a = a + chr(i) + "   "
+      if j == 4 or j == 5:
+         if i >= 100: 
+            b = b + str(i) + " " 
+         else: 
+            b = b + str(i) + "  "   
+      else: 
+         b = b + str(i) + "  "
+   
+   print ("chr:  " + a)
+   print ("asc: " + b)
+   x = int(x) + 16 
+   y = int(y) + 16
